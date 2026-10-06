@@ -1,0 +1,28 @@
+{
+  "name": "gemini-stitch-automation",
+  "version": "1.0.0",
+  "description": "Autonomous Playwright & QA Test Suite Generator with App Inspection, Test Planning, and TypeScript Script Creation Agents.",
+  "main": "scripts/crawler/playwright-crawler.js",
+  "scripts": {
+    "crawl": "node scripts/crawler/playwright-crawler.js",
+    "inspect": "playwright-cli run-code --filename=scripts/inspector/playwright-cli-step.js",
+    "test:sample": "node scripts/crawler/playwright-crawler.js --url \"file:///C:/Users/HP/gemini_stitch/fixtures/sample-app.html\" --out \"fixtures/sample-output.json\"",
+    "test": "npm run test:sample"
+  },
+  "keywords": [
+    "playwright",
+    "playwright-cli",
+    "agent",
+    "crawler",
+    "planner",
+    "test-plan",
+    "dom-inspector",
+    "form-validation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}
