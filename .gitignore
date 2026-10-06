@@ -1,0 +1,55 @@
+# Node.js & Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Playwright Test Execution & Reports
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+.playwright-cli/
+
+# Authentication Sessions & Storage State
+.auth/
+storageState.json
+*.session
+
+# Python Compilation & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE & Editor Directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary & Log Files
+*.log
+tmp/
+temp/
+scratch/
